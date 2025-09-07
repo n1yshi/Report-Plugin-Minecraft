@@ -1,0 +1,60 @@
+name: NetamiReportSystem
+version: 1.0.0
+main: de.netami.reportsystem.NetamiReportSystemPlugin
+api-version: 1.21
+author: n1yshi
+description: A comprehensive report system with UI for users, bugs, and map issues
+
+commands:
+  report:
+    description: Open the report menu
+    aliases: [rep, reports]
+  reportadmin:
+    description: Open the admin report panel
+    permission: reports.admin
+    aliases: [repadmin, ra]
+  reportstats:
+    description: Show report statistics
+    permission: reports.admin
+    aliases: [repstats, rs]
+  reporttp:
+    description: Teleport to a report location
+    permission: reports.admin
+    aliases: [reptp]
+  reportreload:
+    description: Reload the plugin configuration
+    permission: reports.admin
+    aliases: [repreload, rr]
+  reporttest:
+    description: Test command for debugging reports
+    permission: reports.test
+    aliases: [reptest, rt]
+
+permissions:
+  reports.admin:
+    description: Access to admin report commands
+    default: op
+  reports.use:
+    description: Basic report usage
+    default: true
+  reports.user:
+    description: Report users
+    default: true
+  reports.bug:
+    description: Report bugs
+    default: true
+  reports.mapbug:
+    description: Report map bugs
+    default: true
+  reports.notify:
+    description: Receive report notifications
+    default: op
+  reports.teleport:
+    description: Teleport to report locations
+    default: op
+  reports.reset:
+    description: Reset all reports (DANGER)
+    default: op
+  reports.test:
+    description: Access to test commands
+    default: op
