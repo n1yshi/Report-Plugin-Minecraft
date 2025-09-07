@@ -2,7 +2,7 @@ name: NetamiReportSystem
 version: 1.0.0
 main: de.netami.reportsystem.NetamiReportSystemPlugin
 api-version: 1.21
-author: NetamiTV
+author: n1yshi
 description: A comprehensive report system with UI for users, bugs, and map issues
 
 commands:
