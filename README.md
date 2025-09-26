@@ -1,6 +1,7 @@
 # NetamiReportSystem
 
-A comprehensive report system plugin for Minecraft servers that allows players to report issues and administrators to manage them efficiently.
+The plugin was made for a friend of mine for his server but I wanted it to be open source so have fun ig
+
 
 ## Features
 
